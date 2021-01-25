@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Coded by: Jose Angel Rey
+Github: https://github.com/Jose-Angel-Rey
+Gmail: dev.joseangel.rey@gmail.com -->
+
+
+</head>
+
+<body>
+
+  <main class="flex-container">
+
+    <section class="flex-item">
+      <img src="./images/logo.svg" alt="Fylo-logo" title="Fylo logo" class="flex-item__header-logo">
+
+      <div class="icon-container">
+        <div class="icon-container__icon-box">
+          <img src="./images/icon-document.svg" alt="Doc icon" class="flex-item__doc-icon">
+        </div>
+
+        <div class="icon-container__icon-box">
+          <img src="./images/icon-folder.svg" alt="Folder icon" class="flex-item__folder-icon">
+        </div>
+
+        <div class="icon-container__icon-box">
+          <img src="./images/icon-upload.svg" alt="Upload icon" class="flex-item__cloud-icon">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="flex-item">
+      <p class="flex-item__info">
+        You’ve used <b>815 GB</b> of your storage
+      </p>
+
+      <!-- Progress bar (start) -->
+      <div class="progress-bar">
+        <div class="progress-bar__progress">
+          <div class="progress-bar__progress--icon"></div>
+        </div>
+      </div>
+      <!-- Progress bar (end) -->
+
+      <div class="space-info">
+        <span class="progress-bar__space-start">0 GB</span>
+        <span class="progress-bar__space-end">1000 GB</span>
+      </div>
+
+      <div class="flex-item__space-left">
+        <span class="flex-item__space-left-title">185</span>
+        <span class="flex-item__space-left-title--txt-span"> GB left</span>
+        <div class="flex-item__space-left--tail"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    <p>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    </p>
+
+    <p>
+      Coded by <a href="https://github.com/Jose-Angel-Rey" target="_blank">Jose Angel Rey</a>.
+    </p>
+  </div>
+</body>
+
+</html>
