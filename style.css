@@ -200,13 +200,9 @@ body {
     width: 540px;
     height: 153px;
     padding: 30px 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .flex-item__info {
-    align-self: flex-start;
+    text-align: left;
   }
   .space-info {
     width: 100%;
@@ -214,7 +210,7 @@ body {
     justify-content: space-between;
   }
   .flex-item__space-left {
-    transform: translate(9rem, -8rem);
+    transform: translate(9rem, -10rem);
     border-bottom-right-radius: 0;
   }
   .flex-item__space-left::after {
