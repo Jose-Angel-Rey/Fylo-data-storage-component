@@ -9,7 +9,7 @@ Gmail: dev.joseangel.rey@gmail.com */
 }
 .attribution {
   position: absolute;
-  bottom: 25px;
+  top: 15px;
   font-size: 12px;
   text-align: center;
   color: #fff;
@@ -156,6 +156,10 @@ body {
   color: hsl(229, 7%, 55%);
 }
 @media screen and (min-width: 768px) {
+  .attribution{
+  bottom: 25px;
+  }
+  
   body {
     background-position: bottom;
     background-size: 100%;
